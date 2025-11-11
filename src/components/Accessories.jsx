@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/sanitaryware.css"
-import '../styles/faucets.css'
+import '../styles/Faucets.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
