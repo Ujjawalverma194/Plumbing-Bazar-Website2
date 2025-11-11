@@ -1,4 +1,4 @@
-import "../styles/Blogs.css";
+import "../styles/blogs.css";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
