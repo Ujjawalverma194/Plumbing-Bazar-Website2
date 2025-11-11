@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
