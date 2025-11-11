@@ -1,0 +1,26 @@
+.blog-card{
+    height: 43vh;
+    border-radius: 20px;
+}
+.blog-card img{
+    border-radius: 5px;
+}
+.blogs-swiper{
+    margin: 20px 40px;
+    padding: 0 50px;
+    
+}
+.blog-title{
+    color: #0e7dd1;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.blog-desc{
+    font-size: 13px ;
+    font-weight: normal;
+    text-align: justify;
+    
+}
+.blogs-section{
+    background-color:#F9F9F9;
+}

@@ -1,0 +1,193 @@
+
+
+.footer1-section {
+  background-image: url("https://plumbingbazzar.com/uploads/interior-modern.png");
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-right: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: inset 400px 400px 400px rgba(0, 0, 0, 0.789);
+}
+.left-foot img {
+  height: 90%;
+  width: 90%;
+}
+.right-foot h1 {
+  font-size: 50px;
+}
+.right-foot {
+  color: white;
+  /* border: 1px solid red; */
+  margin-left: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left-foot {
+  margin-top: 100px;
+  /* border: 1px solid green; */
+  width: 100vw;
+  margin-left: 80px;
+}
+
+.heading-2 {
+  font-size: 50px;
+  color: #00aeef;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  
+}
+.right-foot h1 {
+  text-align: center;
+  width: 50vw;
+}
+.para {
+  padding: 10px 140px;
+  font-size: 20px;
+  text-align: center;
+}
+.logos img {
+  width: 70%;
+  height: 60%;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .footer1-section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    /* align-items: center; */
+    padding: 0;
+
+    padding: 0;
+  }
+  .left-foot img {
+    height: 100%;
+    width: 100%;
+  }
+  .left-foot {
+    /* border: 1px solid green; */
+    width: 40vw;
+    padding: 0;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 250px 10px;
+  }
+  .right-foot {
+    color: white;
+    /* border: 1px solid red; */
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .right-foot h1 {
+    text-align: center;
+    width: 50vw;
+  }
+  .heading-2 {
+    font-size: 40px;
+    color: #00aeef;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+  }
+  .para {
+    padding: 10px 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .logos {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .footer1-section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .left-foot img {
+    height: 100%;
+    width: 100%;
+  }
+  .left-foot {
+    /* border: 1px solid green; */
+    width: 80vw;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    /* margin: 250px 10px; */
+  }
+  .right-foot {
+    color: white;
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+    margin: 10px;
+  }
+  .right-foot h1 {
+    text-align: center;
+    width: 50vw;
+  }
+  .heading-2 {
+    font-size: 30px;
+    color: #00aeef;
+    font-weight: 500;
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+  }
+  .para {
+    padding: 10px 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .logos {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    flex-direction: column;
+  }
+}

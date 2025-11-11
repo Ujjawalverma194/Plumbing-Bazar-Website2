@@ -1,0 +1,22 @@
+.left-line{
+    border: 1px solid black;
+    width: 40%;
+    height: 0;
+}
+.right-line{
+    border: 0.5px solid black;
+    width: 40%;
+    height: 0;
+}
+.line{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 20px;
+}
+.faucets-products  {
+        padding-left: 60px;
+}
+.product{
+    /* margin: 10px 30px; */
+}
